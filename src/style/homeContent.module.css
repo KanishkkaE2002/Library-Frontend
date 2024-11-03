@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    
+}
+.Banner {
+    width: 100%; /* Set the width of the banner container to 50% of the page */
+    margin: 0 auto; /* Center the banner horizontally */
+}
+
+.Banner img {
+    width: 100%; /* Make the image take the full width of the banner container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove any extra space below the image */
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns layout */
+    gap: 5px; /* Space between cards */
+    padding: 20px; /* Add padding around the grid */
+    max-width: 1200px; /* Restrict max width of container */
+    margin: 0 auto; /* Center the container */
+}
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 40px;
+    color: #6A1B9A; /* You can adjust the color of the icon here */
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;  /* Center the text */
+    text-transform: uppercase;  /* Make all letters uppercase */
+    color: #3b5169;  /* Apply a blue color */
+    font-size: 32px;  /* Adjust the font size as needed */
+    margin-bottom: 10px;  /* Add some space below the heading */
+	margin-top: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.about-text h1 {
+    color: #3b5169;  /* Apply a blue color */
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.about-image {
+    flex: 1;
+    position: relative;
+    max-width: 500px;
+    height: auto;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+about-text p {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /* Footer Section */
+.footer {
+    background-color: #3b5169;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-section {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .footer-section h2 {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-content {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .footer-content a {
+    color: #9ecfff;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Other styles remain unchanged */
+  
